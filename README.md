@@ -16,11 +16,11 @@
 
 ---
 
-## 🎯 What is TeamFlow?
+## 🎯 What is TeamFlo?
 
 <img align="right" src="https://img.shields.io/badge/ENTERPRISE%20GRADE-6366f1?style=for-the-badge" />
 
-**TeamFlow** is a comprehensive, modern **Enterprise Workflow Management Platform** designed to streamline team collaboration, task management, and project delivery. Built with cutting-edge technologies, it provides real-time updates, intelligent workflows, and advanced team coordination features.
+**teamflo** is a comprehensive, modern **Enterprise Workflow Management Platform** designed to streamline team collaboration, task management, and project delivery. Built with cutting-edge technologies, it provides real-time updates, intelligent workflows, and advanced team coordination features.
 
 Perfect for:
 - 🏢 **Enterprise Teams** - Complex workflows & approval chains
@@ -113,7 +113,7 @@ Perfect for:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    TEAMFLOW PLATFORM                        │
+│                    teamflo PLATFORM                        │
 ├─────────────────────────────────────────────────────────────┤
 │                                                              │
 │  ┌──────────────┐  ┌──────────────┐  ┌───────────────┐    │
@@ -202,7 +202,7 @@ Perfect for:
 ```bash
 # 1. Clone repository
 git clone <repo-url>
-cd teamflow-frontend
+cd teamflo-frontend
 
 # 2. Install dependencies
 npm install
@@ -226,7 +226,7 @@ npm run build
 ## 📂 Project Structure
 
 ```
-teamflow-frontend/
+teamflo-frontend/
 ├── src/
 │   ├── components/          # Reusable React components
 │   │   ├── Avatar.jsx       # User avatars
@@ -443,8 +443,8 @@ vercel
 netlify deploy --prod --dir=dist
 
 # Option 3: Docker
-docker build -t teamflow .
-docker run -p 80:3000 teamflow
+docker build -t teamflo .
+docker run -p 80:3000 teamflo
 ```
 
 ### Docker Setup
@@ -624,7 +624,7 @@ git push origin feature/your-feature
 - 📚 [Full Documentation](./docs)
 - 🐛 [Issue Tracker](https://github.com)
 - 💡 [Feature Requests](https://github.com)
-- 📧 [Email Support](mailto:support@teamflow.dev)
+- 📧 [Email Support](mailto:support@teamflo.dev)
 
 ---
 
@@ -652,7 +652,7 @@ Performance:
 
 ## 🎉 Success Stories
 
-> **"TeamFlow transformed how our team manages projects. The real-time collaboration features saved us hours every week!"**
+> **"teamflo transformed how our team manages projects. The real-time collaboration features saved us hours every week!"**
 > — Sarah, Project Manager
 
 > **"The intuitive Kanban board and smart notifications keep everyone on the same page. Highly recommend!"**
@@ -674,7 +674,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 - 📚 Check [documentation](#features)
 - 🐛 [Report bugs](https://github.com/issues)
 - 💡 [Request features](https://github.com/issues)
-- 📧 [Email us](mailto:support@teamflow.dev)
+- 📧 [Email us](mailto:support@teamflo.dev)
 
 ---
 
@@ -682,9 +682,9 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 ### 🚀 Ready to Transform Your Workflow?
 
-**[Launch TeamFlow Now](https://taskflo-up5l.onrender.com)** · [View Docs](#features) · [Star ⭐](https://github.com)
+**[Launch teamflo Now](https://taskflo-up5l.onrender.com)** · [View Docs](#features) · [Star ⭐](https://github.com)
 
-Made with ❤️ by the TeamFlow Team
+Made with ❤️ by the teamflo Team
 
 ***v4.0 • Enterprise Grade • Production Ready***
 
