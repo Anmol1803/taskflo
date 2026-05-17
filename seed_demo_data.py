@@ -6,7 +6,7 @@ import json
 import os
 from datetime import datetime, timedelta
 
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:password@localhost:5432/teamflow")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:password@localhost:5432/taskflo")
 
 conn = psycopg2.connect(DATABASE_URL)
 cur = conn.cursor()

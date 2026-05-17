@@ -2,7 +2,7 @@ import psycopg2
 from passlib.context import CryptContext
 import os
 
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:password@localhost:5432/teamflow")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:password@localhost:5432/taskflo")
 PASSWORD = "123456"
 
 pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
