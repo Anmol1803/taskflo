@@ -6,3 +6,4 @@ python-multipart
 slowapi
 email-validator
 psycopg2-binary
+PyJWT
