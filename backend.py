@@ -928,6 +928,24 @@ app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
 if os.path.isdir("dist"):
     app.mount("/", StaticFiles(directory="dist", html=True), name="frontend")
 
+
+# ---------- Auto-seed if database is empty ----------
+def auto_seed():
+    conn = get_db_conn()
+    cur = conn.cursor()
+    cur.execute("SELECT COUNT(*) FROM users")
+    count = cur.fetchone()["count"]
+    cur.close()
+    return_db_conn(conn)
+    if count == 0:
+        print("Database empty. Running seed scripts…")
+        import subprocess, sys
+        subprocess.run([sys.executable, "seed_user.py"])
+        subprocess.run([sys.executable, "seed_demo_data.py"])
+        print("Seeding complete.")
+
+auto_seed()
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT", 8000)))
