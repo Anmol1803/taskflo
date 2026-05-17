@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+slowapi
+email-validator
+psycopg2-binary

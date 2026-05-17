@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.db
+.env
+node_modules/
+patch-*.js
+project_structure.txt
+full_codebase.txt
