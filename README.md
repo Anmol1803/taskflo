@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌊 TeamFlow
+# 🌊 TeamFlo
 ## Enterprise Workflow Management Suite
 
 ![version](https://img.shields.io/badge/version-4.0-6366f1?style=flat-square)
